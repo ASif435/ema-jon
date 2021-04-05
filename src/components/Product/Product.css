@@ -1,0 +1,34 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.product-img{
+    width: 30%;
+    margin: 10px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-data{
+    width: 70%;
+    margin: 10px 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-data h4{
+    color: blue;
+    font-size: 19px;
+    font-weight: 400;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.btn-danger{
+    background-color: #ff9800;
+    color: #fff;
+}

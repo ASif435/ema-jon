@@ -1,0 +1,27 @@
+.header{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+}
+.header img{
+    height: 80px;
+}
+.menu-item{}
+.menu-item nav{ 
+    background-color: black;
+    line-height: 40px;
+
+}
+.menu-item nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    transition: a .5s;
+}
+.menu-item nav a:hover{
+    background-color: gray;
+
+}
